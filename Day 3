@@ -1,0 +1,13 @@
+class vehicle:
+    def Best_Car(self):
+        print("Supra is the best JDM car")
+class Car(vehicle):
+    def secoend_best_Car(self):
+        print("GTR is the papa of all the cars")
+class Waste(Car):
+    def Cannot_Say_car(Self):
+        print("Now all the JDM are baccha")
+Cars=Waste()
+Cars.Best_Car()
+Cars.secoend_best_Car()
+Cars.Cannot_Say_car()
