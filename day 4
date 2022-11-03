@@ -1,0 +1,6 @@
+a=["hello","soniji","Laptop"]
+try:
+    for i in range(4):
+        print("the index and element from the array is", i,a[i])
+except:
+    print("index out of range")
