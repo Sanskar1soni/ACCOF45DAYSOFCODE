@@ -1,0 +1,14 @@
+import re
+Namage='''Janice is 22 and Theon is 33
+Gabriel is 44 and Joey is 21'''
+
+ages = re.findall('[0-9]+',Namage)
+names = re.findall('[A-Z][a-z]*',Namage)
+
+ageDict={}
+x=0
+for eachname in names:
+
+    ageDict[eachname]=ages[x]
+    x+=1
+print(ageDict)
