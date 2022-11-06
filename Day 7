@@ -1,0 +1,11 @@
+n=int(input())
+for i in range(n):
+    (x,y,z)=map(int,input().split())
+    a=max(x,y,z)
+    b=min(x,y,z)
+    if x<a and x>b:
+        print(x)
+    elif y<a and y>b:
+        print(y)
+    elif z<a and z>b:
+        print(z)
